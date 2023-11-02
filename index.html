@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Tu Seguro</title>
+</head>
+<body>
+  
+  <div class="container bg-primary p-5 d-none  mx-auto justify-content-center d-flex" id="modal">
+    <div class="row">
+      <div class="col-4 col-sm-8" >
+        <h5 id="close">X</h5>
+        <br>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-4 col-sm-8">            
+        <h5>Brindanos tus datos para contactarte</h5>
+        <input type="text" required>Nombre
+        <input type="number" required>Dni
+        <input type="email" required>Email
+        <input type="number" required>Tel
+     </div>
+     <div>
+      <h3 id="precio" ></h3>
+     </div>
+     <button class="btn btn-warning mt-3" id="sendEmail">Contactame</button>
+  </div>
+</div>
+
+
+
+
+
+    
+
+
+    <div class="container-fluid text-center">
+        <h1 class="text-primary fs-1">Seguros La SEG</h1>
+        <img src="/Img/imagen.jfif" alt="">
+        <h4>Porque te conviene tener seguro</h4>
+        <ul class="text-success text-opacity-15 fw-bold fs-5">
+            <li>Cubrimos Gastos imprevistos</li>
+            <li>No debes preocuparte Nosotos nos ocupamos</li>
+            <li>Estamos 24hs todos los dias para vos </li>
+        </ul>
+    </div>
+    
+
+
+    <div class="container  mb-5  ">
+        <div class="row  ">
+
+            <div class=" mb-3 mx-auto justify-content-center d-flex text-center col-12 col-md-4">
+                <div class="card" id="card-basico"  style="width: 18rem;">
+                    <img src="/Img/basico.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Atencion Personalizada y contacto permanente </p>
+                      <p class="card-text">Proteccion sobre y contra todo tipo de siniestro </p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Basico</li>
+                
+                    </ul>
+                    <div class="card-body">
+                      <button class="btn btn-primary mx-auto d-flex" href="#" class="card-link" id="btn-basico">Contratar</button>            
+                    </div>
+                </div>
+            </div>
+
+            <div class=" mb-3 mx-auto justify-content-center d-flex text-center col-12 col-md-4">
+                <div class="card" id='card-inter' style="width: 18rem;">
+                    <img src="/Img/intermedio.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Atencion Personalizada y contacto permanente </p>
+                      <p class="card-text">Proteccion sobre y contra todo tipo de siniestro </p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Basico</li>
+                    
+                    </ul>
+                    <div class="card-body">
+                      <button class="btn btn-primary mx-auto d-flex" href="#" class="card-link" id="btn-intermedio">Contratar</button>            
+                    </div>
+                </div>
+            </div>
+
+         
+            <div class=" mb-3 mx-auto justify-content-center d-flex text-center col-12 col-md-4">
+        
+     
+                <div class="card" id='card-premium'style="width: 18rem;">
+                    <img src="/Img/premium.avif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Atencion Personalizada y contacto permanente </p>
+                      <p class="card-text">Proteccion sobre y contra todo tipo de siniestro </p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Basico</li>
+                      
+                    </ul>
+                    <div class="card-body">
+                      <button class="btn btn-primary mx-auto d-flex" href="#" class="card-link" id="btn-premium" >Contratar</button>        
+                    </div>
+                </div>
+            </div>
+ 
+        
+
+
+          
+    </div>
+
+
+
+    
+
+
+
+         
+
+
+
+
+         
+
+
+
+
+    
+
+
+    <script src="app.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
